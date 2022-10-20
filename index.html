@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>e-mart.com</title>
+
+      <!-- Bootstrap 5 CDN Files -->
+      <link rel="stylesheet" href="bootstrap 5/css/bootstrap.min.css" />
+      <script src="bootstrap 5/js/bootstrap.bundle.min.js"></script>
+
+      <!-- FontAwesome CDN Files -->
+      <link rel="stylesheet" href="fontawesome-6.1.1-web/css/all.min.css" />
+      <script src="fontawesome-6.1.1-web/js/all.min.js"></script>
+
+      <!-- Nivo Slider Files -->
+      <link rel="stylesheet" href="nivo-slider/css/style.css" />
+
+      <!-- Main CSS Files -->
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <div class="nav-wrap">
+         <div class="container-fluid container-xl d-none d-md-block">
+            <div class="nav-menu desktop-view">
+               <div class="logo">
+                  <a href="index.html">E-<strong>mart</strong></a>
+               </div>
+               <ul>
+                  <li><a href="#home-wrapper">home</a></li>
+                  <li><a href="#categroys-wrapper">category</a></li>
+                  <li><a href="#laptop-wrapper">laptop</a></li>
+                  <li><a href="#desktop-wrapper">desktop</a></li>
+                  <li><a href="#printer-wrapper">printer</a></li>
+                  <li><a href="#sdd-wrapper">sdd</a></li>
+                  <li><a href="#footer-wrapper">contact</a></li>
+                  <li><a href="#footer-wrapper">services</a></li>
+               </ul>
+               <ul>
+                  <li>
+                     <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fa-solid fa-eye"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fa-solid fa-heart"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fa-solid fa-user"></i></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="overlay-wrap" id="menu-overlay"></div>
+         <div class="mobile-view">
+            <div class="container-fluid container-xl d-md-none">
+               <div class="nav-menu">
+                  <div class="logo">
+                     <a href="#">E-<strong>mart</strong></a>
+                  </div>
+                  <div class="menu-bar" id="menuBar"><i class="fa-solid fa-bars"></i></div>
+                  <div class="mobile-menu-view" id="openMenu">
+                     <div class="logo">E-<strong>mart</strong></div>
+                     <div class="close-menu" id="closeMenu"><i class="fa-solid fa-xmark"></i></div>
+                     <ul class="d-flex align-items-center justify-content-center mt-3">
+                        <li>
+                           <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                        <li></li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                     </ul>
+                     <ul class="mobile-view-content mt-3">
+                        <li><a href="javascript:void(0)">home</a></li>
+                        <li><a href="#categroys-wrapper">category</a></li>
+                        <li><a href="#laptop-wrapper">laptop</a></li>
+                        <li><a href="#desktop-wrapper">desktop</a></li>
+                        <li><a href="#printer-wrapper">printer</a></li>
+                        <li><a href="#sdd-wrapper">sdd</a></li>
+                        <li><a href="#footer-wrapper">contact</a></li>
+                        <li><a href="#footer-wrapper">services</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- END NAV MENU -->
+
+      <section class="message-section">
+         <div class="message-wrap">
+            <div class="font-logo-message" id="font-icon-message">
+               <i id="message-font" class="fa-solid fa-message"></i>
+            </div>
+            <div class="message-content" id="back-content-message">
+               <div class="logo">E-<strong>mart</strong></div>
+               <div id="close-btn"><i class="fa-solid fa-angle-down"></i></div>
+               <div class="text-area">
+                  <form action="/action_page.php">
+                     <div class="input-form">
+                        <input class="form-control" type="text" name="name" id="form-name" placeholder="your name" />
+                     </div>
+                     <div class="input-form">
+                        <input class="form-control" type="email" name="name" id="form-email" placeholder="your email" />
+                     </div>
+                     <div class="input-form">
+                        <textarea class="form-control" name="textarea" id="form-textarea" cols="30" rows="2" placeholder="type your text..."></textarea>
+                     </div>
+                     <button class="btnSubmit" type="submit">send</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END MESSAGE SECTION -->
+
+      <section class="slider-section d-none d-sm-block" id="home-wrapper">
+         <div class="container-fluid container-xl">
+            <div class="slider-wrap">
+               <div class="slider-wrapper theme-default">
+                  <div id="slider" class="nivoSlider">
+                     <a href="#" target="_blank"><img src="img/slide/header 1.webp" alt="" /></a>
+                     <a href="#" target="_blank"><img src="img/slide/header 2.webp" alt="" /></a>
+                     <a href="#" target="_blank"><img src="img/slide/header 3.webp" alt="" /></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END NIVO SLIDER SECTION -->
+
+      <section class="categories-section" id="categroys-wrapper">
+         <div class="container-fluid container-xl">
+            <div class="value-box categories-wrap">
+               <div class="title d-flex align-items-center justify-content-between">
+                  <h2>top categories</h2>
+                  <a href="#">See all categories <i class="fa-solid fa-angles-right"></i></a>
+               </div>
+               <ul>
+                  <li>
+                     <a href="#">
+                        <div class="categories-icon"><img src="img/categorys/categroys/Laptop.svg" alt="" /></div>
+                        <div class="categories-title"><a href="#">laptop</a></div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <div class="categories-icon"><img src="img/categorys/categroys/printer.svg" alt="" /></div>
+                        <div class="categories-title"><a href="#">printer</a></div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <div class="categories-icon"><img src="img/categorys/categroys/Processor.svg" alt="" /></div>
+                        <div class="categories-title"><a href="#">processor</a></div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <div class="categories-icon"><img src="img/categorys/categroys/GPU.svg" alt="" /></div>
+                        <div class="categories-title"><a href="#">gpu</a></div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <div class="categories-icon"><img src="img/categorys/categroys/Monitor.svg" alt="" /></div>
+                        <div class="categories-title"><a href="#">monitor</a></div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <div class="categories-icon"><img src="img/categorys/categroys/speaker.svg" alt="" /></div>
+                        <div class="categories-title"><a href="#">speaker</a></div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <div class="categories-icon"><img src="img/categorys/categroys/all-in-one.svg" alt="" /></div>
+                        <div class="categories-title"><a href="#">desktop</a></div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <div class="categories-icon"><img src="img/categorys/categroys/software.svg" alt="" /></div>
+                        <div class="categories-title"><a href="#">software</a></div>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <!-- END CATEGORIES SECTION -->
+
+      <section class="laptop-section" id="laptop-wrapper">
+         <div class="container-fluid container-xl">
+            <div class="laptop-wrap">
+               <div class="title d-flex align-items-center justify-content-between">
+                  <h2>laptop categories</h2>
+                  <a href="#">See all laptops <i class="fa-solid fa-angles-right"></i></a>
+               </div>
+               <div class="row">
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/laptop/laptop 2.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/laptop/laptop 3.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">Dell Core i5 1135G7 15</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 66,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/laptop/laptop 4.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">Lenovo IdeaPad Slim 3i</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 59,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/laptop/laptop 5.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">asus IdeaPad 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 68,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/laptop/laptop 6.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">msi probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 52,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/laptop/laptop 7.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp IdeaPad 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 51,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/laptop/laptop 8.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 54,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/laptop/laptop 9.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 59,000</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END LAPTOP SECTION -->
+
+      <section class="desktop-section" id="desktop-wrapper">
+         <div class="container-fluid container-xl">
+            <div class="desktop-wrap">
+               <div class="title d-flex align-items-center justify-content-between">
+                  <h2>desktop categories</h2>
+                  <a href="#">See all desktops <i class="fa-solid fa-angles-right"></i></a>
+               </div>
+               <div class="row">
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/desktop/desktop 1.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">Lenovo IdeaCentre 3 AMD</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 57,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/desktop/desktop 2.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">Dell Vostro 3888 MT 10th</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 70,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/desktop/desktop 3.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">HP 280 Pro G6 MT 10th Gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 46,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/desktop/desktop 4.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/desktop/desktop 5.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">HP ProDesk 400 G7 MT 10th</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 59,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/desktop/desktop 6.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">Asus Vivo AiO V161GART</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 53,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/desktop/desktop 7.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/desktop/desktop 8.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">Asus Vivo AiO V241EAT 11th</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 55,000</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END DESKTOP SECTION -->
+
+      <section class="software-section" id="software-wrapper">
+         <div class="container-fluid container-xl">
+            <div class="software-wrap">
+               <div class="title d-flex align-items-center justify-content-between">
+                  <h2>software categories</h2>
+                  <a href="#">See all softwares <i class="fa-solid fa-angles-right"></i></a>
+               </div>
+               <div class="row">
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/software/software 1.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">Microsoft Office</a>
+                           <a href="#">Microsoft Office Home & Business 2022</a>
+                           <span>Tk 76,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/software/software 2.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">Microsoft Windows 11</a>
+                           <a href="#">Microsoft Windows 11 professional 64 Bit ENG ...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/software/software 3.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">Bijoy Bayanno 2020</a>
+                           <a href="#">Bijoy Bayanno 2020 Bangla Software...</a>
+                           <span>Tk 6,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/software/software 4.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/software/software 5.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/software/software 6.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/software/software 7.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/software/software 8.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END SOFTWARE SECTION -->
+
+      <section class="printer-section" id="printer-wrapper">
+         <div class="container-fluid container-xl">
+            <div class="printer-wrap">
+               <div class="title d-flex align-items-center justify-content-between">
+                  <h2>printer categories</h2>
+                  <a href="#">See all printers <i class="fa-solid fa-angles-right"></i></a>
+               </div>
+               <div class="row">
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/printer/printer 1.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/printer/printer 2.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/printer/printer 3.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/printer/printer 4.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/printer/printer 5.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/printer/printer 6.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/printer/printer 7.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/printer/printer 8.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END PRINTER SECTION -->
+
+      <section class="sdd-section" id="sdd-wrapper">
+         <div class="container-fluid container-xl">
+            <div class="sdd-wrap">
+               <div class="title d-flex align-items-center justify-content-between">
+                  <h2>sdd categories</h2>
+                  <a href="#">See all sdd <i class="fa-solid fa-angles-right"></i></a>
+               </div>
+               <div class="row">
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/sdd/sdd 1.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/sdd/sdd 2.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/sdd/sdd 3.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/sdd/sdd 4.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/sdd/sdd 5.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/sdd/sdd 6.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/sdd/sdd 9.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-sm-4 col-lg-3">
+                     <div class="box-content laptop-box">
+                        <a class="product-img laptop-img" href="#"><img src="img/categorys/sdd/sdd 8.webp" alt="" /></a>
+                        <div class="product-button cart-button">
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to cart"><i class="fa-solid fa-cart-plus"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="quick view"><i class="fa-solid fa-eye"></i></a>
+                           <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="add to favorite"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="product-info laptop-info">
+                           <a class="product-title" href="#">hp probook 8th gen</a>
+                           <a href="#">Microsoft Surface Laptop 4 AMD Ryzen 5 4680U...</a>
+                           <span>Tk 56,000</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END SDD SECTION -->
+
+      <footer class="footer-section" id="footer-wrapper">
+         <div class="container-fluid container-xl">
+            <div class="footer-wrap">
+               <div class="row">
+                  <div class="col-sm-6 col-lg-3">
+                     <div class="logo">
+                        <a href="#">E-<strong>mart</strong></a>
+                     </div>
+                     <div class="social-link">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                     </div>
+                     <div class="complain-box">
+                        <a href="#">complaint box</a>
+                     </div>
+                  </div>
+                  <div class="col-sm-6 mt-4 mt-sm-0 col-lg-3">
+                     <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">branches & pickup point</a></li>
+                        <li><a href="#">warranty</a></li>
+                        <li><a href="#">cookies</a></li>
+                        <li><a href="#">policy</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 mt-4 mt-lg-0 col-lg-3">
+                     <ul>
+                        <li><a href="#">order procedure</a></li>
+                        <li><a href="#">return & refund policy</a></li>
+                        <li><a href="#">payment method</a></li>
+                        <li><a href="#">terms & conditions</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">product book</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 mt-4 mt-lg-0 col-lg-3 footer-end-content">
+                     <ul>
+                        <li><a href="javascript:void(0)">contact us</a></li>
+                        <li><a href="javascript:void(0)">head office</a></li>
+                        <li><a href="javascript:void(0)">company LED</a></li>
+                        <li><a href="javascript:void(0)">dhaka, bangladesh</a></li>
+                        <li>
+                           <a href="javascript:void(0)"><i class="fa-solid fa-phone"></i> +8809638442121, +8809604442121</a>
+                        </li>
+                        <li>
+                           <a href="javascript:void(0)"><i class="fa-brands fa-whatsapp"></i> +8801761-115624 (message only)</a>
+                        </li>
+                        <li><a href="javascript:void(0)">map link</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid container-xl">
+            <div class="copyright">E-mart © 2022 All Rights Reserved. Designed by <a href="https://www.facebook.com/nion.roy22" target="_blank">Nion Roy.</a></div>
+         </div>
+      </footer>
+      <!-- END FOOTER SECTION -->
+
+      <div id="jumpUp"><i class="fa-solid fa-angles-up"></i></div>
+
+      <script src="js/jquery-3.6.0.min.js"></script>
+      <script src="nivo-slider/js/jquery-2.2.4.min.js"></script>
+      <script src="nivo-slider/js/jquery.nivo.slider.js"></script>
+      <script src="js/scriptFile.js"></script>
+      <script>
+         $(window).load(function () {
+            $("#slider").nivoSlider({
+               effect: "fade,sliceDownRight", // Specify sets like: 'fold,fade,sliceDown'
+               pauseTime: 4000, // How long each slide will show
+            });
+         });
+      </script>
+   </body>
+</html>

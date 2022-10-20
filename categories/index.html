@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>e-mart.com</title>
+
+      <!-- Bootstrap 5 CDN Files -->
+      <link rel="stylesheet" href="../bootstrap 5/css/bootstrap.min.css" />
+      <script src="../bootstrap 5/js/bootstrap.bundle.min.js"></script>
+
+      <!-- FontAwesome CDN Files -->
+      <link rel="stylesheet" href="../fontawesome-6.1.1-web/css/all.min.css" />
+      <script src="../fontawesome-6.1.1-web/js/all.min.js"></script>
+
+      <!-- Main CSS Files -->
+      <link rel="stylesheet" href="../css/style.css" />
+   </head>
+   <body>
+      <div class="nav-wrap">
+         <div class="container-fluid container-xl d-none d-md-block">
+            <div class="nav-menu desktop-view">
+               <div class="logo">
+                  <a href="index.html">E-<strong>mart</strong></a>
+               </div>
+               <ul>
+                  <li><a href="#home-wrapper">home</a></li>
+                  <li><a href="#categroys-wrapper">category</a></li>
+                  <li><a href="#laptop-wrapper">laptop</a></li>
+                  <li><a href="#desktop-wrapper">desktop</a></li>
+                  <li><a href="#printer-wrapper">printer</a></li>
+                  <li><a href="#sdd-wrapper">sdd</a></li>
+                  <li><a href="#footer-wrapper">contact</a></li>
+                  <li><a href="#footer-wrapper">services</a></li>
+               </ul>
+               <ul>
+                  <li>
+                     <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fa-solid fa-eye"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fa-solid fa-heart"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fa-solid fa-user"></i></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="overlay-wrap" id="menu-overlay"></div>
+         <div class="mobile-view">
+            <div class="container-fluid container-xl d-md-none">
+               <div class="nav-menu">
+                  <div class="logo">
+                     <a href="#">E-<strong>mart</strong></a>
+                  </div>
+                  <div class="menu-bar" id="menuBar"><i class="fa-solid fa-bars"></i></div>
+                  <div class="mobile-menu-view" id="openMenu">
+                     <div class="logo">E-<strong>mart</strong></div>
+                     <div class="close-menu" id="closeMenu"><i class="fa-solid fa-xmark"></i></div>
+                     <ul class="d-flex align-items-center justify-content-center mt-3">
+                        <li>
+                           <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                        <li></li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                     </ul>
+                     <ul class="mobile-view-content mt-3">
+                        <li><a href="javascript:void(0)">home</a></li>
+                        <li><a href="#categroys-wrapper">category</a></li>
+                        <li><a href="#laptop-wrapper">laptop</a></li>
+                        <li><a href="#desktop-wrapper">desktop</a></li>
+                        <li><a href="#printer-wrapper">printer</a></li>
+                        <li><a href="#sdd-wrapper">sdd</a></li>
+                        <li><a href="#footer-wrapper">contact</a></li>
+                        <li><a href="#footer-wrapper">services</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- END NAV MENU -->
+
+      <section class="message-section">
+         <div class="message-wrap">
+            <div class="font-logo-message" id="font-icon-message">
+               <i id="message-font" class="fa-solid fa-message"></i>
+            </div>
+            <div class="message-content" id="back-content-message">
+               <div class="logo">E-<strong>mart</strong></div>
+               <div id="close-btn"><i class="fa-solid fa-angle-down"></i></div>
+               <div class="text-area">
+                  <form action="/action_page.php">
+                     <div class="input-form">
+                        <input class="form-control" type="text" name="name" id="form-name" placeholder="your name" />
+                     </div>
+                     <div class="input-form">
+                        <input class="form-control" type="email" name="name" id="form-email" placeholder="your email" />
+                     </div>
+                     <div class="input-form">
+                        <textarea class="form-control" name="textarea" id="form-textarea" cols="30" rows="2" placeholder="type your text..."></textarea>
+                     </div>
+                     <button class="btnSubmit" type="submit">send</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END MESSAGE SECTION -->
+
+      <section class="breadcrumb-section">
+         <div class="container-fluid container-lg">
+            <div class="breadcrumb-wrap">
+               <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                     <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                     <li class="breadcrumb-item active" aria-current="page">Library</li>
+                  </ol>
+               </nav>
+            </div>
+         </div>
+      </section>
+      <!-- END BREADCRUMB SECTION -->
+
+      <section class="categories-section">
+         <div class="container-fluid container">
+            <div class="categories-content-wrap">
+               <div class="row">
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><a class="fw-bold" href="#">laptop</a></li>
+                        <li><a class="fw-bold" href="#">all laptop</a></li>
+                        <li><a href="#">apple</a></li>
+                        <li><a href="#">asus</a></li>
+                        <li><a href="#">acer</a></li>
+                        <li><a href="#">avita</a></li>
+                        <li><a href="#">dell</a></li>
+                        <li><a href="#">hp</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#">Huawei</a></li>
+                        <li><a href="#">I-life</a></li>
+                        <li><a href="#">Lenovo</a></li>
+                        <li><a href="#">Microsoft</a></li>
+                        <li><a href="#">Chuwi</a></li>
+                        <li><a href="#">Msi</a></li>
+                        <li><a href="#">Nexstgo</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li><a href="#">Razer</a></li>
+                        <li><a href="#">Gigabyte</a></li>
+                        <li><a href="#">Realme</a></li>
+                        <li><a href="#">Dynabook</a></li>
+                        <li><a class="fw-bold" href="#">Accessories</a></li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> laptop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> laptop cooler</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> caddy</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> laptop bag</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> laptop stand</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> battery</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> adapter</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li>
+                           <a class="fw-bold" href="#">Desktop and Server</a>
+                        </li>
+                        <li>
+                           <a class="fw-bold" href="#">Desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> ryans pc</a>
+                        </li>
+                        <li>
+                           <a class="fw-bold" href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> processor</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a class="fw-bold" href="#">Desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> ryans pc</a>
+                        </li>
+                        <li>
+                           <a class="fw-bold" href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> processor</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a class="fw-bold" href="#">Desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> ryans pc</a>
+                        </li>
+                        <li>
+                           <a class="fw-bold" href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> processor</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> ryans pc</a>
+                        </li>
+                        <li>
+                           <a class="fw-bold" href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#">processor</a>
+                        </li>
+                        <li>
+                           <a href="#">motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#">desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#">optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#">graphics card </a>
+                        </li>
+                        <li>
+                           <a class="fw-bold" href="#">DVD </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li>
+                           <a class="fw-bold" href="#">Desktop and Server</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> ryans pc</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> processor</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a href="#">Desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> ryans pc</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> processor</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a href="#">Desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> ryans pc</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> processor</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> ryans pc</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> processor</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li>
+                           <a href="#">Desktop and Server</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> ryans pc</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> processor</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a href="#">Desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> ryans pc</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> processor</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a href="#">Desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> ryans pc</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> processor</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#">mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#">ryans pc</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> processor</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#">desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#">graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li>
+                           <a href="#">Desktop and Server</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#">brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#">all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> ryans pc</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#">processor</a>
+                        </li>
+                        <li>
+                           <a href="#">motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#">optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a href="#">Desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#">all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#">ryans pc</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> processor</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#">desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#">optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a href="#">Desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#">brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#">all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#">ryans pc</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#">processor</a>
+                        </li>
+                        <li>
+                           <a href="#">motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#">graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> brand desktop PC</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> all in one pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> mini pc</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> ryans pc</a>
+                        </li>
+                        <li>
+                           <a href="#">Desktop Component</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> processor</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> motherboard</a>
+                        </li>
+                        <li>
+                           <a href="#">desktop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#">optical devices</a>
+                        </li>
+                        <li>
+                           <a href="#">graphics card </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><a href="#">laptop</a></li>
+                        <li><a href="#">all laptop</a></li>
+                        <li><a href="#">apple</a></li>
+                        <li><a href="#">asus</a></li>
+                        <li><a href="#">acer</a></li>
+                        <li><a href="#">avita</a></li>
+                        <li><a href="#">dell</a></li>
+                        <li><a href="#">hp</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#">Huawei</a></li>
+                        <li><a href="#">I-life</a></li>
+                        <li><a href="#">Lenovo</a></li>
+                        <li><a href="#">Microsoft</a></li>
+                        <li><a href="#">Chuwi</a></li>
+                        <li><a href="#">Msi</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li><a href="#">Razer</a></li>
+                        <li><a href="#">Gigabyte</a></li>
+                        <li><a href="#">Realme</a></li>
+                        <li><a href="#">Dynabook</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> laptop RAM</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> laptop cooler</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-lg-3">
+                     <ul>
+                        <li><br /></li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> caddy</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> laptop bag</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> laptop stand</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> battery</a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa-solid fa-square-caret-right"></i> adapter</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <footer class="footer-section" id="footer-wrapper">
+         <div class="container-fluid container-xl">
+            <div class="footer-wrap">
+               <div class="row">
+                  <div class="col-sm-6 col-lg-3">
+                     <div class="logo">
+                        <a href="#">E-<strong>mart</strong></a>
+                     </div>
+                     <div class="social-link">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                     </div>
+                     <div class="complain-box">
+                        <a href="#">complaint box</a>
+                     </div>
+                  </div>
+                  <div class="col-sm-6 mt-4 mt-sm-0 col-lg-3">
+                     <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">branches & pickup point</a></li>
+                        <li><a href="#">warranty</a></li>
+                        <li><a href="#">cookies</a></li>
+                        <li><a href="#">policy</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 mt-4 mt-lg-0 col-lg-3">
+                     <ul>
+                        <li><a href="#">order procedure</a></li>
+                        <li><a href="#">return & refund policy</a></li>
+                        <li><a href="#">payment method</a></li>
+                        <li><a href="#">terms & conditions</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">product book</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 mt-4 mt-lg-0 col-lg-3 footer-end-content">
+                     <ul>
+                        <li><a href="javascript:void(0)">contact us</a></li>
+                        <li><a href="javascript:void(0)">head office</a></li>
+                        <li><a href="javascript:void(0)">company LED</a></li>
+                        <li><a href="javascript:void(0)">dhaka, bangladesh</a></li>
+                        <li>
+                           <a href="javascript:void(0)"><i class="fa-solid fa-phone"></i> +8809638442121, +8809604442121</a>
+                        </li>
+                        <li>
+                           <a href="javascript:void(0)"><i class="fa-brands fa-whatsapp"></i> +8801761-115624 (message only)</a>
+                        </li>
+                        <li><a href="javascript:void(0)">map link</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid container-xl">
+            <div class="copyright">E-mart © 2022 All Rights Reserved. Designed by <a href="https://www.facebook.com/nion.roy22" target="_blank">Nion Roy.</a></div>
+         </div>
+      </footer>
+      <!-- END FOOTER SECTION -->
+
+      <script src="../js/jquery-3.6.0.min.js"></script>
+      <script src="../js/scriptFile.js"></script>
+   </body>
+</html>
