@@ -150,7 +150,6 @@ section {
 
 .mobile-view .menu-bar {
    font-size: 24px;
-   margin-right: 38px;
    color: #99C93E;
    cursor: pointer;
 }
@@ -160,7 +159,8 @@ section {
    left: -400px;
    top: 0;
    background: #222f3e;
-   width: 50%;
+   width: 380px;
+   max-width: 80vw;
    height: 100vh;
    transition: all .4s ease;
 }
@@ -250,7 +250,7 @@ section {
    position: absolute;
    right: 70px;
    width: 300px;
-   max-width: 100vw;
+   max-width: 60vw;
    bottom: 0px;
    overflow: hidden;
    border: 2px solid #99C93E;
